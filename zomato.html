@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta  name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles.css" />
+        <title>Zomato</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="navbar__brand">
+                    <img src="https://zomato-landing-page-notes.vercel.app/assets/logo.png" alt="logo" class="brand__logo" />
+                </div>
+
+                <div class="navbar__nav__items">
+                    <div class="nav__item">
+                        <button class="primary__button">Order Food</button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="container">
+            <section class="hero__container">
+                <div class="hero__description">
+                    <h1 class="hero__text">
+                        Order food from<br /> favourite restaurants<br /> near you. 
+                    </h1>
+                    <button class="primary__button">Order now</button>
+                </div>
+                
+                <div class="hero__image__container">
+                    <img src="https://zomato-landing-page-notes.vercel.app/assets/hero.jpg" alt="hero image" class="hero__image" />
+                    <img src="https://zomato-landing-page-notes.vercel.app/assets/svg/heroShape.svg" alt="hero shape" class="hero__image__shape" />
+                    <img src="https://zomato-landing-page-notes.vercel.app/assets/svg/herobgpattren.svg" alt="hero pattern" class="hero__image__pattern" />
+                </div>
+            </section>
+
+            <section class="video__conatiner">
+                <div class="vid">
+                    <iframe width="300" height="200" 
+                    src="https://www.youtube.com/embed/G5rTbTPV5vU" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen 
+                    class="chef__vid" >
+                    </iframe>
+                </div>
+
+                <div class="vid__description">
+                    <p class="vid__text">
+                        Your food will be prepared safely with an experienced chef, without<br /> compromising on the quality and hygiene.
+                    </p>
+                </div>
+            </section>
+
+            <section class="menu__container">
+                <div class="menu">
+                    <h1 class="menu__text">
+                        Explore our menu
+                    </h1>
+                </div>
+
+                <div class="menu__container__diagonal">
+                </div>
+
+                <div class="menu__card__list">
+                    <div class="menu__item1">
+                        <img class = "img1" src = "https://zomato-landing-page-notes.vercel.app/assets/burger.jpg" alt="img" />
+                        <h4 class="item1__title">Burgers</h4>
+                        <p class="item1__text">Burger King, Mcdonalds, Burger Place<br /> <span style="color: red;" >+3</span></p>
+                    </div>
+                    <br />
+                    <div class="menu__item2">
+                        <img class = "img1" src = "https://zomato-landing-page-notes.vercel.app/assets/pizza.jpg" alt="img" />
+                        <h4 class="item1__title">Pizza</h4>
+                        <p class="item1__text">Pizza Hut, Domino's Pizza <span style="color: red;" >+3</span></p>
+                    </div>
+                    <br />
+                    <div class="menu__item1">
+                        <img class = "img1" src = "https://zomato-landing-page-notes.vercel.app/assets/iceCream.jpg" alt="img" />
+                        <h4 class="item1__title">Ice Creams</h4>
+                        <p class="item1__text">Baskin Robins, Ibaco <span style="color: red;" >+3</span></p>
+                    </div>
+                    <br />
+                </div>
+                
+                <div class="menu__button">
+                    <button class="menu__button__view">View More</button>
+                </div>
+            </section>
+
+            <section class="restaurant__container">
+                <div class="restaurant__title">
+                    <h1 class="restaurant__text">Order From 100s of restaurants</h1>
+                </div>
+
+                <div class="restaurant__image__container">
+                    <div class="restaurant__image__row1">
+                        <img src = "https://zomato-landing-page-notes.vercel.app/assets/restaurant1.jpg" alt="img1" class="image1" />
+                        <img src = "https://zomato-landing-page-notes.vercel.app/assets/restaurant2.jpg" alt="img2" class="image2" />
+                    </div>
+                    <div class="restaurant__image__row2">
+                        <img src="https://zomato-landing-page-notes.vercel.app/assets/restaurant3.jpg" alt="img3" class="image3" />
+                        <img src="https://zomato-landing-page-notes.vercel.app/assets/restaurant4.jpg" alt="img4" class="image4" />
+                    </div>
+                </div>
+            </section>
+
+            <section class="update__container">
+                <div class="update__title">
+                    <h1 class="update__text" >Stay Updated</h1>
+                </div>
+
+                <div class="update__button__container">
+                    <input class="update__input" type="email" placeholder="email@email.com" required />
+                    <button class="primary__button" type="submit">Get Updates</button>
+                </div>
+
+                <div class="update__image__container">
+                    <p class="update__image__text" >
+                        When a man's stomach is full it makes no difference whether he is rich or poor.
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer__container">
+            <div class="zomato">zomato</div>
+            <div class="additional">
+                <p class="additional__content">
+                    Pricing<br />Terms and condition<br />Partnership<br />Career<br />Contact
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
